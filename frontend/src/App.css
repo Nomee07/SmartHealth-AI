@@ -1,24 +1,28 @@
+/* Styles for the root element of the application */
 .App {
-  text-align: center;
+  text-align: center; /* Align text content to the center */
 }
 
+/* Styles for the header element of the application */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Set background color */
+  min-height: 100vh; /* Set minimum height of the header to 100% of the viewport height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Align items horizontally to the center */
+  justify-content: center; /* Align items vertically to the center */
+  font-size: calc(10px + 2vmin); /* Set font size using a calculation based on viewport size */
+  color: white; /* Set text color to white */
 }
 
+/* Styles for input elements */
 input {
-  margin: 5px;
-  padding: 5px;
+  margin: 5px; /* Set margin around input elements */
+  padding: 5px; /* Set padding inside input elements */
 }
 
+/* Styles for button elements */
 button {
-  margin: 5px;
-  padding: 5px 10px;
+  margin: 5px; /* Set margin around button elements */
+  padding: 5px 10px; /* Set padding inside button elements */
 }
